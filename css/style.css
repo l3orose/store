@@ -83,6 +83,7 @@ span {
 }
 .grafico {
 	width: 100%;
+	display: none;
 	margin-bottom: 20px;
 }
 footer {
@@ -111,6 +112,9 @@ a.boton {
 h2 {
 	letter-spacing: 2px;
 	word-spacing: 10px;
+}
+.grafico {
+	display: flex;
 }
 
 header{
