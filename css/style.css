@@ -235,7 +235,7 @@ article {
 	display: flex;
 	justify-content: center;
 }
-@media (min-width: 768px){
+@media (min-width: 768px) {
 .contenedor--articulo {
 	display: grid;
 	justify-content: center;
@@ -251,7 +251,7 @@ article {
 	line-height: 1.5;
 }
 
-
+}
 
 /*----------------------- css error-----------*/
 
@@ -289,4 +289,4 @@ article {
 			text-align: center;
 			margin-bottom: 100px;
 		}
-	}
+	
