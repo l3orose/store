@@ -1,0 +1,187 @@
+:root {
+--primario: #9C27B0;
+--primarioOscuro: #89119d;
+--secundario: #FFce00;
+}
+html {
+	font-size: 62.5%;
+	box-sizing: border-box;
+	
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+h2 {
+	font-size: 4rem;
+	color: var(--secundario);
+	text-align: center;
+}
+
+img {
+	max-width: 100%;
+}
+
+body {
+	background-color: var(--primario);
+	font-family: 'Staatliches', cursiva;
+}
+header {
+	display: grid;
+	justify-content: center;
+	padding: 2rem 0;
+}
+
+.barra nav{
+	display: grid;
+	justify-content: center;
+	grid-template-columns: 200px 200px;
+	margin: 0 auto;
+	text-align: center;
+	background-color: var(--primarioOscuro);
+	padding: 2rem 0;
+}
+.barra a {
+	text-decoration: none;
+	font-size: 3rem;
+	color: white;
+}
+
+.barra a:hover {
+	text-decoration: underline;
+
+}
+
+.boton {
+	text-decoration: none;
+	width: 100%;
+	background-color: var(--secundario);
+	margin: 2rem 0;
+	padding: 1rem 0;
+	color: #E8F78F;
+	-webkit-text-stroke: 2px black;
+  color: transparent;
+}
+.boton:hover  {
+	color: white;
+	-webkit-text-stroke: 2px black;
+	text-decoration: underline;
+	
+  
+}
+footer {
+	background-color: var(--primarioOscuro);
+	color: white;
+	font-size: 3rem;
+	height: 10rem;
+	display: grid;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+	margin-top: 3rem;
+
+}
+/*---------------------- PAGINA NOSOTROS----*/
+.contenedor--producto {
+	display: flex;	
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	}
+
+.article {
+	
+	font-size: 1.6rem;
+	color: white;
+	font-family: arial;
+	line-height: 2;
+	width: 95%;
+	display: flex;
+	flex-direction: column;
+	text-align: justify;	
+}
+@media (min-width: 768px){
+.contenedor--producto {
+	display: flex;	
+	justify-content: center;
+	align-items: center;
+	}
+
+.article {
+	
+	font-size: 1.8rem;
+	color: white;
+	font-family: arial;
+	
+	line-height: 2;
+	width: 25%;
+	display: flex;
+	flex-direction: column;	
+}}
+.imagen--producto {
+
+	align-items: center;
+	
+
+}
+#opciones {
+	display: flex;
+	flex-direction: row;
+	background-color: var(--primario);
+	font-size: 3rem;
+	font-family: arial;
+	border-style: none;
+	margin:1rem 1rem 0 0;
+	width: 27rem;
+	border-style: solid;
+	border-color: white;
+	border-width: .5rem;
+	color: rgb(203, 156, 235);
+
+}
+
+.opciones {
+	display: flex;
+	justify-content: center;
+	
+}
+@media (min-width: 768px){
+.opciones {
+	display: flex;
+	flex-direction: row;
+}}
+
+
+input {
+	font-size: 3rem;
+	width: 6rem;
+	background-color: var(--primario);
+	border-style: solid;
+	border-color: white;
+	border-width: .5rem;
+	color: white;
+	text-align: center;
+	margin-top: 1rem;
+}
+.boton--carrito  {
+	display: flex;
+	justify-content: center;
+	font-size: 3rem;
+	font-weight: 400;
+	text-decoration: none;
+	background-color: var(--secundario);
+	margin: 2rem 0;
+	padding: .3rem 0;
+	-webkit-text-stroke: 2px black;
+  	color: transparent;
+}
+
+	
+.boton--carrito:hover  {
+	color: white;
+	-webkit-text-stroke: 2px black;
+	text-decoration: underline;
+	-webkit-box-shadow: 0px 16px 28px 0px rgba(137,17,157,1);
+	-moz-box-shadow: 0px 16px 28px 0px rgba(137,17,157,1);
+	box-shadow: 0px 16px 28px 0px rgba(137,17,157,1);
+}
