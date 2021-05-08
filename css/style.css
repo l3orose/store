@@ -127,7 +127,7 @@ header{
 	width: 100%;
 	text-align: center;
 }	
-
+}
 
 /*-------------------------DESKTOP-------------------*/
 @media (min-width: 900px){
@@ -249,7 +249,7 @@ article {
 	font-family: arial;
 	margin:0 4rem;
 	line-height: 1.5;
-}}
+}
 
 
 
