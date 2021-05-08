@@ -146,7 +146,7 @@ main {
 }
 .contenedor2 {
 	display: grid;
-	grid-template-columns: 66% 33%;
+	grid-template-columns: 66% 34%;
 }
 .contenedor2, .contenedor3 {
 	width: 100%;
@@ -167,7 +167,6 @@ main {
 	border-style: solid;
 	border-color: var(--primarioOscuro);
 	background-color: var(--primarioOscuro);
-	align-items: center;
 	margin: 0;
 
 }
